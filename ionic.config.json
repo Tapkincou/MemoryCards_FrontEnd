@@ -1,0 +1,8 @@
+{
+  "name": "MemoryCards_FrontEnd",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "5fbaafa4"
+}
