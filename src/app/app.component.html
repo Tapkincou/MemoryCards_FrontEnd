@@ -1,3 +1,21 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-router-outlet>
+
+
+  </ion-router-outlet>
+  <ion-content>
+
+    <div *ngFor="let deck of listDecks" class="card-content" id="main-content">
+  
+    
+      <ion-button expand="block" color="tertiary">{{deck}}</ion-button>
+  
+  </div>
+  <p>
+    <ion-button>Default</ion-button>
+  </p>
+  </ion-content>
+
+
+
 </ion-app>
